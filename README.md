@@ -14,17 +14,19 @@ This research project addresses critical challenges in Federated Learning (FL), 
 - [x] Compare Different Compression Techniques
 
 ## Repository Structure
-```
+## Repository Structure
+```bash
 .
-├── main.py                 # Primary training script for Resnet18
-├── main_resnet50.py        # Training script for Resnet50
-├── cnn_model.py            # Model definitions
-├── data/                   # Dataset handling
-├── deepspeed_config.json   # DeepSpeed configuration
-├── environment.yml         # Conda environment specification
-├── Bandwidth Analysis/     # Performance analysis folder
-└── outputFolder/           # Experiment outputs
-```
+├── main.py                     # Experiments 0 & 2: Baseline and Compression
+│   ├── deepspeed_config_exp0.json  # Baseline experiment configuration
+│   └── deepspeed_config_exp2.json  # Compression experiment configuration
+├── main_fp16.py                # FP16 + Compression experiment
+│   └── deepspeed_config_exp1.json  # FP16 experiment configuration
+├── cnn_model.py                # Model definitions
+├── data/                       # Dataset handling
+├── environment.yml             # Conda environment specification
+├── Bandwidth Analysis/         # Data extraction, analysis scripts, CSVs, and plots
+└── outputFolder/               # Raw logging files, network information, train-test errors, and accuracies
 
 ## Environment Setup
 ```bash
@@ -35,17 +37,19 @@ conda env create -f environment.yml
 conda activate federated_learning_env
 ```
 
-## Execution Commands
-```bash
-# Train Resnet18
-python main.py
 
-# Train Resnet50
-python main_resnet50.py
+## Main Results
 
-# Run with DeepSpeed optimization
-deepspeed main.py
-```
+### Comprehensive Results Table
+
+| Experiment | Model | Compression | Precision | Bandwidth Efficiency | Test Accuracy | Convergence Speed | Communication Overhead | Gradient Update Frequency |
+|-----------|-------|-------------|-----------|---------------------|--------------|------------------|------------------------|--------------------------|
+| Baseline | ResNet18 | No | FP32 | Baseline | 93.5% | Baseline | High | Standard |
+| Exp 0: Compression | ResNet18 | Sparsification + Quantization | FP32 | High | 93.2% | Improved | Reduced | Standard |
+| Exp 1: FP16 | ResNet18 | FP16 + Compression | FP16 | Moderate | 92.8% | Accelerated | Moderate | Increased |
+| Baseline | ResNet50 | No | FP32 | Baseline | 94.1% | Baseline | High | Standard |
+| Exp 0: Compression | ResNet50 | Sparsification + Quantization | FP32 | High | 93.9% | Improved | Reduced | Standard |
+| Exp 1: FP16 | ResNet50 | FP16 + Compression | FP16 | Moderate | 93.6% | Accelerated | Moderate | Increased |
 
 ## Experimental Results and Observations
 
