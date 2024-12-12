@@ -1,0 +1,270 @@
+nohup: ignoring input
+[2024-12-06 16:32:14,852] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-06 16:32:15,939] torch.distributed.run: [WARNING] 
+[2024-12-06 16:32:15,939] torch.distributed.run: [WARNING] *****************************************
+[2024-12-06 16:32:15,939] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-12-06 16:32:15,939] torch.distributed.run: [WARNING] *****************************************
+[2024-12-06 16:32:18,966] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-06 16:32:18,966] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-06 16:32:18,968] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-06 16:32:18,969] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-12-06 16:32:20,082] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-06 16:32:20,082] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-06 16:32:20,082] [INFO] [comm.py:683:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-12-06 16:32:20,082] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-06 16:32:20,083] [INFO] [comm.py:652:init_distributed] cdb=None
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Files already downloaded and verified
+Files already downloaded and verifiedFiles already downloaded and verifiedFiles already downloaded and verified
+
+
+Files already downloaded and verified
+Files already downloaded and verifiedFiles already downloaded and verified
+
+Files already downloaded and verified
+[2024-12-06 16:32:22,265] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed info: version=0.16.0, git-hash=unknown, git-branch=unknown
+[2024-12-06 16:32:22,265] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-06 16:32:22,397] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-06 16:32:22,399] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-06 16:32:22,401] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-06 16:32:22,817] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-06 16:32:22,818] [INFO] [logging.py:128:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-06 16:32:22,818] [INFO] [logging.py:128:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-06 16:32:22,819] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Basic Optimizer = SGD
+[2024-12-06 16:32:22,819] [INFO] [utils.py:59:is_zero_supported_optimizer] Checking ZeRO support for optimizer=SGD type=<class 'torch.optim.sgd.SGD'>
+[2024-12-06 16:32:22,819] [WARNING] [engine.py:1240:_do_optimizer_sanity_check] **** You are using ZeRO with an untested optimizer, proceed with caution *****
+[2024-12-06 16:32:22,819] [INFO] [logging.py:128:log_dist] [Rank 0] Creating torch.float32 ZeRO stage 1 optimizer
+[2024-12-06 16:32:22,819] [INFO] [stage_1_and_2.py:149:__init__] Reduce bucket size 500000000
+[2024-12-06 16:32:22,819] [INFO] [stage_1_and_2.py:150:__init__] Allgather bucket size 500000000
+[2024-12-06 16:32:22,819] [INFO] [stage_1_and_2.py:151:__init__] CPU Offload: False
+[2024-12-06 16:32:22,819] [INFO] [stage_1_and_2.py:152:__init__] Round robin gradient partitioning: False
+[2024-12-06 16:32:22,977] [INFO] [utils.py:781:see_memory_usage] Before initializing optimizer states
+[2024-12-06 16:32:22,978] [INFO] [utils.py:782:see_memory_usage] MA 0.05 GB         Max_MA 0.05 GB         CA 0.06 GB         Max_CA 0 GB 
+[2024-12-06 16:32:22,978] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 5.59 GB, percent = 4.5%
+[2024-12-06 16:32:23,066] [INFO] [utils.py:781:see_memory_usage] After initializing optimizer states
+[2024-12-06 16:32:23,067] [INFO] [utils.py:782:see_memory_usage] MA 0.05 GB         Max_MA 0.06 GB         CA 0.07 GB         Max_CA 0 GB 
+[2024-12-06 16:32:23,067] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 5.59 GB, percent = 4.5%
+[2024-12-06 16:32:23,067] [INFO] [stage_1_and_2.py:544:__init__] optimizer state initialized
+[2024-12-06 16:32:23,150] [INFO] [utils.py:781:see_memory_usage] After initializing ZeRO optimizer
+[2024-12-06 16:32:23,151] [INFO] [utils.py:782:see_memory_usage] MA 0.05 GB         Max_MA 0.05 GB         CA 0.07 GB         Max_CA 0 GB 
+[2024-12-06 16:32:23,151] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 5.59 GB, percent = 4.5%
+[2024-12-06 16:32:23,152] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedZeroOptimizer
+[2024-12-06 16:32:23,152] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = None
+[2024-12-06 16:32:23,153] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-06 16:32:23,153] [INFO] [logging.py:128:log_dist] [Rank 0] step=0, skipped=0, lr=[0.1], mom=[0.9]
+[2024-12-06 16:32:23,153] [INFO] [config.py:999:print] DeepSpeedEngine configuration:
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   amp_enabled .................. False
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   amp_params ................... False
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   bfloat16_enabled ............. False
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   bfloat16_immediate_grad_update  False
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-06 16:32:23,153] [INFO] [config.py:1003:print]   checkpoint_tag_validation_enabled  True
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   checkpoint_tag_validation_fail  False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x1470bdf0cdd0>
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   communication_data_type ...... None
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   curriculum_enabled_legacy .... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   curriculum_params_legacy ..... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   data_efficiency_enabled ...... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   dataloader_drop_last ......... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   disable_allgather ............ False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   dump_state ................... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   dynamic_loss_scale_args ...... None
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_enabled ........... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_layer_num ......... 0
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_max_iter .......... 100
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_stability ......... 1e-06
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_tol ............... 0.01
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   eigenvalue_verbose ........... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   elasticity_enabled ........... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   fp16_auto_cast ............... None
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   fp16_enabled ................. False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   fp16_master_weights_and_gradients  False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   global_rank .................. 0
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   grad_accum_dtype ............. None
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   gradient_accumulation_steps .. 1
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   gradient_clipping ............ 0.0
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   gradient_predivide_factor .... 1.0
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   graph_harvesting ............. False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   initial_dynamic_scale ........ 65536
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   load_universal_checkpoint .... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   loss_scale ................... 0
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   memory_breakdown ............. False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   mics_hierarchial_params_gather  False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   mics_shard_size .............. -1
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   optimizer_legacy_fusion ...... False
+[2024-12-06 16:32:23,154] [INFO] [config.py:1003:print]   optimizer_name ............... None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   optimizer_params ............. None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   pld_enabled .................. False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   pld_params ................... False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   prescale_gradients ........... False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   scheduler_name ............... None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   scheduler_params ............. None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   seq_parallel_communication_data_type  torch.float32
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   sparse_attention ............. None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   sparse_gradients_enabled ..... False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   steps_per_print .............. inf
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   timers_config ................ enabled=True synchronized=True
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   train_batch_size ............. 64
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   train_micro_batch_size_per_gpu  16
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   use_data_before_expert_parallel_  False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   use_node_local_storage ....... False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   wall_clock_breakdown ......... False
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   weight_quantization_config ... None
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   world_size ................... 4
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   zero_allow_untested_optimizer  True
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   zero_config .................. stage=1 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=1000000000 max_reuse_distance=1000000000 gather_16bit_weights_on_model_save=False module_granularity_threshold=0 use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   zero_enabled ................. True
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-06 16:32:23,155] [INFO] [config.py:1003:print]   zero_optimization_stage ...... 1
+[2024-12-06 16:32:23,155] [INFO] [config.py:989:print_user_config]   json = {
+    "train_micro_batch_size_per_gpu": 16, 
+    "gradient_accumulation_steps": 1, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "bf16": {
+        "enabled": false
+    }, 
+    "zero_optimization": {
+        "stage": 1
+    }, 
+    "gradient_compression": {
+        "enabled": true, 
+        "quantization_bits": 16, 
+        "sparsification": {
+            "enabled": true, 
+            "threshold": 0.01
+        }
+    }, 
+    "steps_per_print": inf, 
+    "zero_allow_untested_optimizer": true
+}
+Epoch 1/50: Train Loss = 2.3535, Train Accuracy = 28.16%, Test Accuracy = 37.19%, Epoch Time = 9.47s, Total Time = 9.47s
+Epoch 2/50: Train Loss = 1.6235, Train Accuracy = 40.42%, Test Accuracy = 47.97%, Epoch Time = 7.99s, Total Time = 17.46s
+Epoch 3/50: Train Loss = 1.4520, Train Accuracy = 46.80%, Test Accuracy = 51.48%, Epoch Time = 8.00s, Total Time = 25.46s
+Epoch 4/50: Train Loss = 1.3297, Train Accuracy = 52.13%, Test Accuracy = 56.56%, Epoch Time = 8.02s, Total Time = 33.48s
+Epoch 5/50: Train Loss = 1.1868, Train Accuracy = 57.32%, Test Accuracy = 56.09%, Epoch Time = 8.05s, Total Time = 41.53s
+Epoch 6/50: Train Loss = 1.0660, Train Accuracy = 62.18%, Test Accuracy = 63.20%, Epoch Time = 8.00s, Total Time = 49.53s
+Epoch 7/50: Train Loss = 0.9659, Train Accuracy = 65.77%, Test Accuracy = 65.82%, Epoch Time = 7.97s, Total Time = 57.50s
+Epoch 8/50: Train Loss = 0.9433, Train Accuracy = 66.67%, Test Accuracy = 67.62%, Epoch Time = 7.93s, Total Time = 65.43s
+Epoch 9/50: Train Loss = 0.8861, Train Accuracy = 68.77%, Test Accuracy = 71.02%, Epoch Time = 7.97s, Total Time = 73.39s
+Epoch 10/50: Train Loss = 0.8675, Train Accuracy = 69.46%, Test Accuracy = 65.90%, Epoch Time = 7.89s, Total Time = 81.28s
+Epoch 11/50: Train Loss = 0.8171, Train Accuracy = 71.67%, Test Accuracy = 70.74%, Epoch Time = 7.94s, Total Time = 89.22s
+Epoch 12/50: Train Loss = 0.7932, Train Accuracy = 72.23%, Test Accuracy = 68.20%, Epoch Time = 7.90s, Total Time = 97.13s
+Epoch 13/50: Train Loss = 0.7512, Train Accuracy = 73.92%, Test Accuracy = 71.21%, Epoch Time = 7.90s, Total Time = 105.03s
+Epoch 14/50: Train Loss = 0.7503, Train Accuracy = 73.59%, Test Accuracy = 72.30%, Epoch Time = 7.90s, Total Time = 112.94s
+Epoch 15/50: Train Loss = 0.7314, Train Accuracy = 74.72%, Test Accuracy = 73.91%, Epoch Time = 7.92s, Total Time = 120.85s
+Epoch 16/50: Train Loss = 0.7103, Train Accuracy = 75.29%, Test Accuracy = 75.59%, Epoch Time = 7.87s, Total Time = 128.72s
+Epoch 17/50: Train Loss = 0.6925, Train Accuracy = 75.98%, Test Accuracy = 72.58%, Epoch Time = 7.89s, Total Time = 136.61s
+Epoch 18/50: Train Loss = 0.6821, Train Accuracy = 76.41%, Test Accuracy = 74.77%, Epoch Time = 7.94s, Total Time = 144.55s
+Epoch 19/50: Train Loss = 0.6883, Train Accuracy = 75.82%, Test Accuracy = 76.68%, Epoch Time = 8.02s, Total Time = 152.57s
+Epoch 20/50: Train Loss = 0.6468, Train Accuracy = 77.65%, Test Accuracy = 70.27%, Epoch Time = 7.90s, Total Time = 160.47s
+Epoch 21/50: Train Loss = 0.5092, Train Accuracy = 82.74%, Test Accuracy = 80.90%, Epoch Time = 7.91s, Total Time = 168.38s
+Epoch 22/50: Train Loss = 0.4742, Train Accuracy = 83.89%, Test Accuracy = 80.98%, Epoch Time = 7.89s, Total Time = 176.27s
+Epoch 23/50: Train Loss = 0.4392, Train Accuracy = 85.11%, Test Accuracy = 81.41%, Epoch Time = 7.99s, Total Time = 184.26s
+Epoch 24/50: Train Loss = 0.4195, Train Accuracy = 85.29%, Test Accuracy = 82.30%, Epoch Time = 7.93s, Total Time = 192.20s
+Epoch 25/50: Train Loss = 0.4078, Train Accuracy = 85.98%, Test Accuracy = 82.42%, Epoch Time = 7.97s, Total Time = 200.17s
+Epoch 26/50: Train Loss = 0.4080, Train Accuracy = 85.77%, Test Accuracy = 82.38%, Epoch Time = 7.86s, Total Time = 208.03s
+Epoch 27/50: Train Loss = 0.3914, Train Accuracy = 86.66%, Test Accuracy = 82.34%, Epoch Time = 7.94s, Total Time = 215.97s
+Epoch 28/50: Train Loss = 0.3901, Train Accuracy = 86.42%, Test Accuracy = 82.73%, Epoch Time = 7.92s, Total Time = 223.89s
+Epoch 29/50: Train Loss = 0.3777, Train Accuracy = 87.10%, Test Accuracy = 82.03%, Epoch Time = 7.90s, Total Time = 231.79s
+Epoch 30/50: Train Loss = 0.3659, Train Accuracy = 87.38%, Test Accuracy = 83.12%, Epoch Time = 7.83s, Total Time = 239.62s
+Epoch 31/50: Train Loss = 0.3533, Train Accuracy = 87.92%, Test Accuracy = 83.59%, Epoch Time = 7.91s, Total Time = 247.53s
+Epoch 32/50: Train Loss = 0.3436, Train Accuracy = 88.03%, Test Accuracy = 83.16%, Epoch Time = 7.87s, Total Time = 255.39s
+Epoch 33/50: Train Loss = 0.3363, Train Accuracy = 88.47%, Test Accuracy = 83.52%, Epoch Time = 7.93s, Total Time = 263.32s
+Epoch 34/50: Train Loss = 0.3178, Train Accuracy = 88.82%, Test Accuracy = 83.44%, Epoch Time = 7.96s, Total Time = 271.28s
+Epoch 35/50: Train Loss = 0.3180, Train Accuracy = 89.09%, Test Accuracy = 83.59%, Epoch Time = 8.01s, Total Time = 279.30s
+Epoch 36/50: Train Loss = 0.3256, Train Accuracy = 88.80%, Test Accuracy = 83.24%, Epoch Time = 8.06s, Total Time = 287.36s
+Epoch 37/50: Train Loss = 0.3186, Train Accuracy = 88.90%, Test Accuracy = 83.36%, Epoch Time = 7.93s, Total Time = 295.28s
+Epoch 38/50: Train Loss = 0.3256, Train Accuracy = 88.59%, Test Accuracy = 83.28%, Epoch Time = 7.94s, Total Time = 303.22s
+Epoch 39/50: Train Loss = 0.3142, Train Accuracy = 89.07%, Test Accuracy = 83.79%, Epoch Time = 7.88s, Total Time = 311.10s
+Epoch 40/50: Train Loss = 0.3160, Train Accuracy = 89.09%, Test Accuracy = 83.75%, Epoch Time = 7.99s, Total Time = 319.09s
+Epoch 41/50: Train Loss = 0.3025, Train Accuracy = 89.45%, Test Accuracy = 83.40%, Epoch Time = 7.89s, Total Time = 326.98s
+Epoch 42/50: Train Loss = 0.3071, Train Accuracy = 89.56%, Test Accuracy = 83.63%, Epoch Time = 7.91s, Total Time = 334.90s
+Epoch 43/50: Train Loss = 0.3071, Train Accuracy = 89.42%, Test Accuracy = 83.67%, Epoch Time = 7.83s, Total Time = 342.73s
+Epoch 44/50: Train Loss = 0.3086, Train Accuracy = 89.49%, Test Accuracy = 83.55%, Epoch Time = 7.96s, Total Time = 350.69s
+Epoch 45/50: Train Loss = 0.3184, Train Accuracy = 89.19%, Test Accuracy = 83.52%, Epoch Time = 7.95s, Total Time = 358.64s
+Epoch 46/50: Train Loss = 0.3094, Train Accuracy = 89.29%, Test Accuracy = 83.67%, Epoch Time = 7.94s, Total Time = 366.59s
+Epoch 47/50: Train Loss = 0.3098, Train Accuracy = 89.29%, Test Accuracy = 83.83%, Epoch Time = 7.90s, Total Time = 374.48s
+Epoch 48/50: Train Loss = 0.3104, Train Accuracy = 89.24%, Test Accuracy = 83.48%, Epoch Time = 7.98s, Total Time = 382.46s
+Epoch 49/50: Train Loss = 0.3080, Train Accuracy = 89.21%, Test Accuracy = 83.75%, Epoch Time = 7.93s, Total Time = 390.39s
+Epoch 50/50: Train Loss = 0.3019, Train Accuracy = 89.49%, Test Accuracy = 83.98%, Epoch Time = 7.96s, Total Time = 398.35s
+Metrics plot saved to training_metrics_with_time.png
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.

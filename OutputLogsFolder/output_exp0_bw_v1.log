@@ -1,0 +1,442 @@
+nohup: ignoring input
+[2024-12-09 09:39:11,895] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-09 09:39:12,985] torch.distributed.run: [WARNING] 
+[2024-12-09 09:39:12,985] torch.distributed.run: [WARNING] *****************************************
+[2024-12-09 09:39:12,985] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-12-09 09:39:12,985] torch.distributed.run: [WARNING] *****************************************
+[2024-12-09 09:39:16,007] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-09 09:39:16,039] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-09 09:39:16,047] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-09 09:39:16,057] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+[2024-12-09 09:39:17,154] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-09 09:39:17,167] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-09 09:39:17,175] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-09 09:39:17,175] [INFO] [comm.py:683:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-12-09 09:39:17,192] [INFO] [comm.py:652:init_distributed] cdb=None
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/ext3/miniforge3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verifiedFiles already downloaded and verifiedFiles already downloaded and verified
+
+
+[2024-12-09 09:39:19,357] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed info: version=0.16.0, git-hash=unknown, git-branch=unknown
+[2024-12-09 09:39:19,357] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-09 09:39:19,503] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-09 09:39:19,503] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-09 09:39:19,504] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-09 09:39:19,894] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-12-09 09:39:19,895] [INFO] [logging.py:128:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-12-09 09:39:19,895] [INFO] [logging.py:128:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-12-09 09:39:19,896] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Basic Optimizer = SGD
+[2024-12-09 09:39:19,896] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed Final Optimizer = SGD
+[2024-12-09 09:39:19,896] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = None
+[2024-12-09 09:39:19,896] [INFO] [logging.py:128:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-12-09 09:39:19,896] [INFO] [logging.py:128:log_dist] [Rank 0] step=0, skipped=0, lr=[0.1], mom=[0.9]
+[2024-12-09 09:39:19,896] [INFO] [config.py:999:print] DeepSpeedEngine configuration:
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   amp_enabled .................. False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   amp_params ................... False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   bfloat16_enabled ............. False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   bfloat16_immediate_grad_update  False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   checkpoint_parallel_write_pipeline  False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   checkpoint_tag_validation_enabled  True
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   checkpoint_tag_validation_fail  False
+[2024-12-09 09:39:19,897] [INFO] [config.py:1003:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x1534e29dd0a0>
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   communication_data_type ...... None
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   curriculum_enabled_legacy .... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   curriculum_params_legacy ..... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   data_efficiency_enabled ...... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   dataloader_drop_last ......... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   disable_allgather ............ False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   dump_state ................... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   dynamic_loss_scale_args ...... None
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_enabled ........... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_gas_boundary_resolution  1
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_layer_num ......... 0
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_max_iter .......... 100
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_stability ......... 1e-06
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_tol ............... 0.01
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   eigenvalue_verbose ........... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   elasticity_enabled ........... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   fp16_auto_cast ............... None
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   fp16_enabled ................. False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   fp16_master_weights_and_gradients  False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   global_rank .................. 0
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   grad_accum_dtype ............. None
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   gradient_accumulation_steps .. 4
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   gradient_clipping ............ 0.0
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   gradient_predivide_factor .... 1.0
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   graph_harvesting ............. False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   initial_dynamic_scale ........ 65536
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   load_universal_checkpoint .... False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   loss_scale ................... 0
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   memory_breakdown ............. False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   mics_hierarchial_params_gather  False
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   mics_shard_size .............. -1
+[2024-12-09 09:39:19,898] [INFO] [config.py:1003:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   optimizer_legacy_fusion ...... False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   optimizer_name ............... None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   optimizer_params ............. None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   pld_enabled .................. False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   pld_params ................... False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   prescale_gradients ........... False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   scheduler_name ............... None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   scheduler_params ............. None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   seq_parallel_communication_data_type  torch.float32
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   sparse_attention ............. None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   sparse_gradients_enabled ..... False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   steps_per_print .............. inf
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   timers_config ................ enabled=True synchronized=True
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   train_batch_size ............. 256
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   train_micro_batch_size_per_gpu  16
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   use_data_before_expert_parallel_  False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   use_node_local_storage ....... False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   wall_clock_breakdown ......... True
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   weight_quantization_config ... None
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   world_size ................... 4
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   zero_allow_untested_optimizer  True
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   zero_config .................. stage=0 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=1000000000 max_reuse_distance=1000000000 gather_16bit_weights_on_model_save=False module_granularity_threshold=0 use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   zero_enabled ................. False
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   zero_force_ds_cpu_optimizer .. True
+[2024-12-09 09:39:19,899] [INFO] [config.py:1003:print]   zero_optimization_stage ...... 0
+[2024-12-09 09:39:19,899] [INFO] [config.py:989:print_user_config]   json = {
+    "train_micro_batch_size_per_gpu": 16, 
+    "gradient_accumulation_steps": 4, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "bf16": {
+        "enabled": false
+    }, 
+    "zero_optimization": {
+        "stage": 0
+    }, 
+    "wall_clock_breakdown": true, 
+    "steps_per_print": inf, 
+    "zero_allow_untested_optimizer": true
+}
+[2024-12-09 09:39:20,443] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 219.22 | bwd_microstep: 77.51 | bwd_inner_microstep: 77.32 | bwd_allreduce_microstep: 0.06 | step_microstep: 0.05
+[2024-12-09 09:39:20,500] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.04 | bwd_microstep: 4.76 | bwd_inner_microstep: 4.62 | bwd_allreduce_microstep: 0.04 | step_microstep: 0.04
+[2024-12-09 09:39:20,530] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.49 | bwd_inner_microstep: 4.46 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.01
+[2024-12-09 09:39:20,583] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 17.43 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 12.87 | step_microstep: 9.21
+[2024-12-09 09:39:20,583] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 230.80 | bwd: 104.19 | bwd_inner: 90.94 | bwd_allreduce: 12.98 | step: 9.31
+[2024-12-09 09:39:20,616] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.26 | bwd_microstep: 4.30 | bwd_inner_microstep: 4.26 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.01
+[2024-12-09 09:39:20,648] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.20 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.01
+[2024-12-09 09:39:20,679] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.01
+[2024-12-09 09:39:20,717] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.87 | bwd_microstep: 6.91 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 2.34 | step_microstep: 5.87
+[2024-12-09 09:39:20,718] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 16.07 | bwd: 20.26 | bwd_inner: 17.76 | bwd_allreduce: 2.36 | step: 5.90
+[2024-12-09 09:39:20,751] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.19 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:20,783] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.08
+[2024-12-09 09:39:20,815] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.98 | bwd_microstep: 4.54 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:20,851] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.06 | bwd_microstep: 8.31 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 3.73 | step_microstep: 0.67
+[2024-12-09 09:39:20,851] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.61 | bwd: 21.64 | bwd_inner: 17.72 | bwd_allreduce: 3.76 | step: 0.85
+[2024-12-09 09:39:20,882] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 4.31 | bwd_inner_microstep: 4.25 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:20,913] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:20,943] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:20,979] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.87 | bwd_microstep: 8.77 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 4.18 | step_microstep: 0.68
+[2024-12-09 09:39:20,979] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.20 | bwd: 22.16 | bwd_inner: 17.80 | bwd_allreduce: 4.21 | step: 0.82
+[2024-12-09 09:39:21,010] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.88 | bwd_microstep: 4.30 | bwd_inner_microstep: 4.25 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:21,042] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.64 | bwd_inner_microstep: 4.59 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,073] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,109] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.86 | bwd_microstep: 8.84 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 4.27 | step_microstep: 0.69
+[2024-12-09 09:39:21,109] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.36 | bwd: 22.30 | bwd_inner: 17.87 | bwd_allreduce: 4.29 | step: 0.85
+[2024-12-09 09:39:21,139] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 4.18 | bwd_inner_microstep: 4.16 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,170] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.62 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:21,202] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 4.71 | bwd_inner_microstep: 4.66 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,237] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 7.91 | bwd_inner_microstep: 4.65 | bwd_allreduce_microstep: 3.22 | step_microstep: 0.68
+[2024-12-09 09:39:21,238] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.11 | bwd: 21.39 | bwd_inner: 18.03 | bwd_allreduce: 3.24 | step: 0.84
+[2024-12-09 09:39:21,269] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.21 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:21,301] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 4.61 | bwd_inner_microstep: 4.57 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,333] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.92 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,368] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 7.38 | bwd_inner_microstep: 4.56 | bwd_allreduce_microstep: 2.79 | step_microstep: 0.68
+[2024-12-09 09:39:21,368] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.38 | bwd: 20.80 | bwd_inner: 17.84 | bwd_allreduce: 2.80 | step: 0.82
+[2024-12-09 09:39:21,399] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 4.30 | bwd_inner_microstep: 4.23 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,430] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,461] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,497] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.87 | bwd_microstep: 8.08 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 3.54 | step_microstep: 0.68
+[2024-12-09 09:39:21,498] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.33 | bwd: 21.50 | bwd_inner: 17.79 | bwd_allreduce: 3.56 | step: 0.81
+[2024-12-09 09:39:21,529] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.24 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,561] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.74 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:21,592] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.64 | bwd_inner_microstep: 4.60 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:21,629] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 8.97 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 4.32 | step_microstep: 0.69
+[2024-12-09 09:39:21,630] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.28 | bwd: 22.40 | bwd_inner: 17.91 | bwd_allreduce: 4.30 | step: 0.87
+[2024-12-09 09:39:21,660] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.87 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.42 | bwd_allreduce_microstep: 0.06 | step_microstep: 0.06
+[2024-12-09 09:39:21,691] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.03 | step_microstep: 0.08
+[2024-12-09 09:39:21,722] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.44 | bwd_inner_microstep: 4.40 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,756] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 7.80 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 3.29 | step_microstep: 0.68
+[2024-12-09 09:39:21,756] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.28 | bwd: 21.35 | bwd_inner: 17.78 | bwd_allreduce: 3.40 | step: 0.87
+[2024-12-09 09:39:21,788] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.24 | bwd_inner_microstep: 4.19 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,821] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.95 | bwd_microstep: 4.62 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.03 | step_microstep: 0.06
+[2024-12-09 09:39:21,852] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.69 | bwd_inner_microstep: 4.66 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,887] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 8.38 | bwd_inner_microstep: 4.46 | bwd_allreduce_microstep: 3.91 | step_microstep: 0.68
+[2024-12-09 09:39:21,887] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.28 | bwd: 21.91 | bwd_inner: 17.79 | bwd_allreduce: 3.95 | step: 0.84
+[2024-12-09 09:39:21,918] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.74 | bwd_microstep: 4.17 | bwd_inner_microstep: 4.14 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,948] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.49 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:21,979] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.40 | bwd_inner_microstep: 4.37 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,014] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 9.07 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 4.61 | step_microstep: 0.68
+[2024-12-09 09:39:22,015] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.01 | bwd: 22.11 | bwd_inner: 17.36 | bwd_allreduce: 4.63 | step: 0.81
+[2024-12-09 09:39:22,045] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.11 | bwd_inner_microstep: 4.08 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,076] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 4.40 | bwd_inner_microstep: 4.37 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,107] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.75 | bwd_microstep: 4.48 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,142] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 8.68 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 4.23 | step_microstep: 0.68
+[2024-12-09 09:39:22,143] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.11 | bwd: 21.66 | bwd_inner: 17.31 | bwd_allreduce: 4.24 | step: 0.82
+[2024-12-09 09:39:22,172] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.75 | bwd_microstep: 4.16 | bwd_inner_microstep: 4.11 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,203] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.75 | bwd_microstep: 4.50 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,233] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.69 | bwd_microstep: 4.50 | bwd_inner_microstep: 4.45 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,269] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.69 | bwd_microstep: 9.10 | bwd_inner_microstep: 4.48 | bwd_allreduce_microstep: 4.59 | step_microstep: 0.68
+[2024-12-09 09:39:22,269] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 14.81 | bwd: 22.21 | bwd_inner: 17.44 | bwd_allreduce: 4.61 | step: 0.81
+[2024-12-09 09:39:22,299] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.71 | bwd_microstep: 4.07 | bwd_inner_microstep: 4.04 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:22,330] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 4.54 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.07
+[2024-12-09 09:39:22,360] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.70 | bwd_microstep: 4.51 | bwd_inner_microstep: 4.48 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,396] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 9.58 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 5.09 | step_microstep: 0.68
+[2024-12-09 09:39:22,397] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 14.90 | bwd: 22.71 | bwd_inner: 17.51 | bwd_allreduce: 5.11 | step: 0.86
+[2024-12-09 09:39:22,427] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.21 | bwd_inner_microstep: 4.18 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,459] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.01 | bwd_microstep: 4.76 | bwd_inner_microstep: 4.64 | bwd_allreduce_microstep: 0.03 | step_microstep: 0.07
+[2024-12-09 09:39:22,492] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.03 | bwd_microstep: 4.54 | bwd_inner_microstep: 4.45 | bwd_allreduce_microstep: 0.04 | step_microstep: 0.06
+[2024-12-09 09:39:22,527] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 6.96 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 2.45 | step_microstep: 0.67
+[2024-12-09 09:39:22,527] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.61 | bwd: 20.45 | bwd_inner: 17.73 | bwd_allreduce: 2.53 | step: 0.84
+[2024-12-09 09:39:22,558] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 4.15 | bwd_inner_microstep: 4.09 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,591] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.95 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:22,622] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.88 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,657] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 6.84 | bwd_inner_microstep: 4.41 | bwd_allreduce_microstep: 2.40 | step_microstep: 0.67
+[2024-12-09 09:39:22,657] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.54 | bwd: 20.05 | bwd_inner: 17.47 | bwd_allreduce: 2.42 | step: 0.83
+[2024-12-09 09:39:22,689] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.97 | bwd_microstep: 4.20 | bwd_inner_microstep: 4.15 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,721] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.49 | bwd_inner_microstep: 4.45 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,752] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.59 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,786] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 6.91 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 2.34 | step_microstep: 0.68
+[2024-12-09 09:39:22,787] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.29 | bwd: 20.15 | bwd_inner: 17.65 | bwd_allreduce: 2.36 | step: 0.81
+[2024-12-09 09:39:22,819] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.93 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:22,851] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.96 | bwd_microstep: 4.63 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.07
+[2024-12-09 09:39:22,883] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:22,917] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 6.91 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 2.32 | step_microstep: 0.67
+[2024-12-09 09:39:22,918] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.64 | bwd: 20.31 | bwd_inner: 17.80 | bwd_allreduce: 2.34 | step: 0.84
+[2024-12-09 09:39:22,950] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.98 | bwd_microstep: 4.27 | bwd_inner_microstep: 4.23 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:22,981] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.63 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,013] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:23,049] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.20 | bwd_microstep: 6.91 | bwd_inner_microstep: 4.40 | bwd_allreduce_microstep: 2.47 | step_microstep: 0.68
+[2024-12-09 09:39:23,050] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.96 | bwd: 20.33 | bwd_inner: 17.69 | bwd_allreduce: 2.49 | step: 0.84
+[2024-12-09 09:39:23,081] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.75 | bwd_microstep: 4.27 | bwd_inner_microstep: 4.22 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,112] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 4.64 | bwd_inner_microstep: 4.60 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:23,144] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,179] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 7.04 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 2.43 | step_microstep: 0.70
+[2024-12-09 09:39:23,180] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.24 | bwd: 20.47 | bwd_inner: 17.86 | bwd_allreduce: 2.45 | step: 0.86
+[2024-12-09 09:39:23,212] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.01 | bwd_microstep: 4.33 | bwd_inner_microstep: 4.28 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:23,245] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.97 | bwd_microstep: 4.61 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,276] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.03 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,311] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 6.84 | bwd_inner_microstep: 4.46 | bwd_allreduce_microstep: 2.33 | step_microstep: 0.67
+[2024-12-09 09:39:23,311] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.74 | bwd: 20.28 | bwd_inner: 17.77 | bwd_allreduce: 2.35 | step: 0.82
+[2024-12-09 09:39:23,342] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 4.29 | bwd_inner_microstep: 4.27 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.07
+[2024-12-09 09:39:23,373] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,404] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 4.54 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,440] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 9.55 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 4.95 | step_microstep: 0.68
+[2024-12-09 09:39:23,440] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.07 | bwd: 22.86 | bwd_inner: 17.77 | bwd_allreduce: 4.97 | step: 0.85
+[2024-12-09 09:39:23,471] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.28 | bwd_inner_microstep: 4.24 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,502] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,533] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,569] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 9.31 | bwd_inner_microstep: 4.44 | bwd_allreduce_microstep: 4.83 | step_microstep: 0.68
+[2024-12-09 09:39:23,569] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.05 | bwd: 22.67 | bwd_inner: 17.66 | bwd_allreduce: 4.85 | step: 0.82
+[2024-12-09 09:39:23,600] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.23 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,632] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,663] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,698] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 7.81 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 3.24 | step_microstep: 0.68
+[2024-12-09 09:39:23,699] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.35 | bwd: 21.16 | bwd_inner: 17.75 | bwd_allreduce: 3.26 | step: 0.82
+[2024-12-09 09:39:23,731] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.96 | bwd_microstep: 4.33 | bwd_inner_microstep: 4.29 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,763] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,795] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.93 | bwd_microstep: 4.61 | bwd_inner_microstep: 4.56 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.07
+[2024-12-09 09:39:23,831] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.98 | bwd_microstep: 7.82 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 3.21 | step_microstep: 0.68
+[2024-12-09 09:39:23,831] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.70 | bwd: 21.24 | bwd_inner: 17.86 | bwd_allreduce: 3.23 | step: 0.84
+[2024-12-09 09:39:23,863] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.30 | bwd_inner_microstep: 4.25 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,895] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,925] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.94 | bwd_microstep: 4.59 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:23,961] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.93 | bwd_microstep: 8.98 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 4.46 | step_microstep: 0.68
+[2024-12-09 09:39:23,962] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.62 | bwd: 22.40 | bwd_inner: 17.79 | bwd_allreduce: 4.48 | step: 0.81
+[2024-12-09 09:39:23,992] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.27 | bwd_inner_microstep: 4.24 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:24,023] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,054] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.74 | bwd_microstep: 4.54 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,090] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 9.04 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 4.49 | step_microstep: 0.68
+[2024-12-09 09:39:24,090] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.14 | bwd: 22.41 | bwd_inner: 17.75 | bwd_allreduce: 4.52 | step: 0.84
+[2024-12-09 09:39:24,120] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.72 | bwd_microstep: 4.20 | bwd_inner_microstep: 4.17 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,151] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,182] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.63 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,218] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 8.58 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 4.03 | step_microstep: 0.68
+[2024-12-09 09:39:24,218] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 14.98 | bwd: 21.94 | bwd_inner: 17.77 | bwd_allreduce: 4.05 | step: 0.80
+[2024-12-09 09:39:24,250] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.27 | bwd_inner_microstep: 4.22 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:24,281] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.60 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,312] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.63 | bwd_inner_microstep: 4.59 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,347] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 7.98 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 3.41 | step_microstep: 0.67
+[2024-12-09 09:39:24,348] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.33 | bwd: 21.41 | bwd_inner: 17.84 | bwd_allreduce: 3.43 | step: 0.82
+[2024-12-09 09:39:24,379] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.21 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,410] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.88 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:24,441] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.62 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.03 | step_microstep: 0.06
+[2024-12-09 09:39:24,476] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 8.19 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 3.64 | step_microstep: 0.68
+[2024-12-09 09:39:24,476] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.31 | bwd: 21.61 | bwd_inner: 17.73 | bwd_allreduce: 3.69 | step: 0.84
+[2024-12-09 09:39:24,507] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.91 | bwd_microstep: 4.18 | bwd_inner_microstep: 4.14 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:24,538] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.86 | bwd_microstep: 4.60 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:24,570] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.86 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,604] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 7.76 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 3.23 | step_microstep: 0.68
+[2024-12-09 09:39:24,605] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.38 | bwd: 21.07 | bwd_inner: 17.68 | bwd_allreduce: 3.25 | step: 0.83
+[2024-12-09 09:39:24,635] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.94 | bwd_microstep: 4.24 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,666] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.94 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,698] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.66 | bwd_inner_microstep: 4.61 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,733] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 8.76 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 4.21 | step_microstep: 0.67
+[2024-12-09 09:39:24,734] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.37 | bwd: 22.20 | bwd_inner: 17.82 | bwd_allreduce: 4.23 | step: 0.81
+[2024-12-09 09:39:24,765] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.27 | bwd_inner_microstep: 4.23 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:24,797] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.94 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,829] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,865] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 8.49 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 3.95 | step_microstep: 0.70
+[2024-12-09 09:39:24,866] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.45 | bwd: 21.87 | bwd_inner: 17.75 | bwd_allreduce: 3.97 | step: 0.86
+[2024-12-09 09:39:24,897] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.21 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,928] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,958] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.62 | bwd_inner_microstep: 4.57 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:24,994] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 8.28 | bwd_inner_microstep: 4.45 | bwd_allreduce_microstep: 3.79 | step_microstep: 0.67
+[2024-12-09 09:39:24,994] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.27 | bwd: 21.66 | bwd_inner: 17.71 | bwd_allreduce: 3.81 | step: 0.80
+[2024-12-09 09:39:25,026] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.03 | bwd_microstep: 4.19 | bwd_inner_microstep: 4.12 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,056] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.96 | bwd_microstep: 4.59 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,087] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.83 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.48 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,123] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.86 | bwd_microstep: 8.65 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 4.11 | step_microstep: 0.68
+[2024-12-09 09:39:25,123] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.63 | bwd: 21.91 | bwd_inner: 17.63 | bwd_allreduce: 4.13 | step: 0.81
+[2024-12-09 09:39:25,154] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 4.29 | bwd_inner_microstep: 4.24 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,185] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.97 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,216] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.92 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.49 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,252] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.85 | bwd_microstep: 8.27 | bwd_inner_microstep: 4.46 | bwd_allreduce_microstep: 3.76 | step_microstep: 0.68
+[2024-12-09 09:39:25,252] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.52 | bwd: 21.61 | bwd_inner: 17.70 | bwd_allreduce: 3.78 | step: 0.81
+[2024-12-09 09:39:25,282] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 4.22 | bwd_inner_microstep: 4.17 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,313] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,344] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:25,380] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 8.88 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 4.32 | step_microstep: 0.68
+[2024-12-09 09:39:25,380] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.14 | bwd: 22.12 | bwd_inner: 17.61 | bwd_allreduce: 4.34 | step: 0.83
+[2024-12-09 09:39:25,411] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 4.20 | bwd_inner_microstep: 4.18 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,442] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.52 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:25,473] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,508] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.75 | bwd_microstep: 7.96 | bwd_inner_microstep: 4.46 | bwd_allreduce_microstep: 3.46 | step_microstep: 0.67
+[2024-12-09 09:39:25,508] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.04 | bwd: 21.21 | bwd_inner: 17.60 | bwd_allreduce: 3.48 | step: 0.82
+[2024-12-09 09:39:25,540] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.87 | bwd_microstep: 4.23 | bwd_inner_microstep: 4.19 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,571] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.88 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,602] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.64 | bwd_inner_microstep: 4.59 | bwd_allreduce_microstep: 0.02 | step_microstep: 0.06
+[2024-12-09 09:39:25,637] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 7.30 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 2.75 | step_microstep: 0.68
+[2024-12-09 09:39:25,637] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.25 | bwd: 20.74 | bwd_inner: 17.79 | bwd_allreduce: 2.79 | step: 0.83
+[2024-12-09 09:39:25,668] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.28 | bwd_inner_microstep: 4.24 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,699] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.78 | bwd_microstep: 4.56 | bwd_inner_microstep: 4.51 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:25,731] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.93 | bwd_microstep: 4.60 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:25,767] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 8.33 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 3.74 | step_microstep: 0.68
+[2024-12-09 09:39:25,767] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.31 | bwd: 21.73 | bwd_inner: 17.82 | bwd_allreduce: 3.76 | step: 0.86
+[2024-12-09 09:39:25,799] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.95 | bwd_microstep: 4.29 | bwd_inner_microstep: 4.24 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:25,832] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.92 | bwd_microstep: 4.86 | bwd_inner_microstep: 4.73 | bwd_allreduce_microstep: 0.04 | step_microstep: 0.06
+[2024-12-09 09:39:25,864] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.84 | bwd_microstep: 4.62 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,900] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.93 | bwd_microstep: 8.80 | bwd_inner_microstep: 4.54 | bwd_allreduce_microstep: 4.22 | step_microstep: 0.68
+[2024-12-09 09:39:25,901] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.58 | bwd: 22.52 | bwd_inner: 18.04 | bwd_allreduce: 4.28 | step: 0.87
+[2024-12-09 09:39:25,932] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,963] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.48 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:25,994] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.45 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,029] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.86 | bwd_microstep: 8.25 | bwd_inner_microstep: 4.59 | bwd_allreduce_microstep: 3.62 | step_microstep: 0.68
+[2024-12-09 09:39:26,030] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.14 | bwd: 21.51 | bwd_inner: 17.69 | bwd_allreduce: 3.65 | step: 0.82
+[2024-12-09 09:39:26,060] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.26 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,091] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.59 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:26,121] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.74 | bwd_microstep: 4.52 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,158] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.80 | bwd_microstep: 9.24 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 4.62 | step_microstep: 0.67
+[2024-12-09 09:39:26,158] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.17 | bwd: 22.57 | bwd_inner: 17.80 | bwd_allreduce: 4.64 | step: 0.82
+[2024-12-09 09:39:26,190] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.95 | bwd_microstep: 4.30 | bwd_inner_microstep: 4.25 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,221] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.79 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.47 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:26,251] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.59 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.02 | step_microstep: 0.06
+[2024-12-09 09:39:26,286] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.77 | bwd_microstep: 8.15 | bwd_inner_microstep: 4.55 | bwd_allreduce_microstep: 3.55 | step_microstep: 0.68
+[2024-12-09 09:39:26,287] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.22 | bwd: 21.52 | bwd_inner: 17.79 | bwd_allreduce: 3.59 | step: 0.86
+[2024-12-09 09:39:26,317] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.23 | bwd_inner_microstep: 4.20 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,349] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.58 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,380] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.76 | bwd_microstep: 4.57 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,415] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.81 | bwd_microstep: 8.42 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 3.85 | step_microstep: 0.67
+[2024-12-09 09:39:26,416] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.29 | bwd: 21.77 | bwd_inner: 17.77 | bwd_allreduce: 3.87 | step: 0.82
+[2024-12-09 09:39:26,447] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.05 | bwd_microstep: 4.32 | bwd_inner_microstep: 4.27 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,479] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.60 | bwd_inner_microstep: 4.56 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.06
+[2024-12-09 09:39:26,510] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.89 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,547] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.96 | bwd_microstep: 9.03 | bwd_inner_microstep: 4.58 | bwd_allreduce_microstep: 4.41 | step_microstep: 0.69
+[2024-12-09 09:39:26,548] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.73 | bwd: 22.43 | bwd_inner: 17.88 | bwd_allreduce: 4.42 | step: 0.85
+[2024-12-09 09:39:26,580] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 4.04 | bwd_microstep: 4.31 | bwd_inner_microstep: 4.26 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,612] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.92 | bwd_microstep: 4.64 | bwd_inner_microstep: 4.60 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,645] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.94 | bwd_microstep: 4.55 | bwd_inner_microstep: 4.50 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,681] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.98 | bwd_microstep: 8.39 | bwd_inner_microstep: 4.59 | bwd_allreduce_microstep: 3.76 | step_microstep: 0.67
+[2024-12-09 09:39:26,681] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.81 | bwd: 21.84 | bwd_inner: 17.92 | bwd_allreduce: 3.78 | step: 0.82
+[2024-12-09 09:39:26,713] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.90 | bwd_microstep: 4.19 | bwd_inner_microstep: 4.14 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.03
+[2024-12-09 09:39:26,745] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.96 | bwd_microstep: 4.43 | bwd_inner_microstep: 4.38 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.05
+[2024-12-09 09:39:26,779] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.82 | bwd_microstep: 4.53 | bwd_inner_microstep: 4.48 | bwd_allreduce_microstep: 0.01 | step_microstep: 0.04
+[2024-12-09 09:39:26,793] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd_microstep: 3.73 | bwd_microstep: 8.41 | bwd_inner_microstep: 4.53 | bwd_allreduce_microstep: 3.84 | step_microstep: 0.68
+[2024-12-09 09:39:26,793] [INFO] [logging.py:128:log_dist] [Rank 0] time (ms) | fwd: 15.35 | bwd: 21.51 | bwd_inner: 17.51 | bwd_allreduce: 3.86 | step: 0.85
+Epoch 1/1: Train Loss = 2.4449, Train Accuracy = 26.71%, Test Accuracy = 38.67%, Epoch Time = 7.58s, Total Time = 7.58s
+Metrics plot saved to training_metrics_with_time.png
+Warning: The cache directory for DeepSpeed Triton autotune, /home/hsk8171/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
