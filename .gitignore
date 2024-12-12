@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Conda
+*.conda
+*.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# DeepSpeed
+*.deepspeed_stage*
+
+# Environments
+venv/
+env/
+.venv/
+.env/
+
+# Output folders
+outputFolder/
