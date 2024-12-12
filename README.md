@@ -99,6 +99,11 @@ Below are the performance charts for the experiments conducted:
 
 This figure provides a comparative analysis of train/test accuracy, train error, and time per epoch for the baseline, FP16 + Compression, and Compression-only experiments. It visually emphasizes the trade-offs in convergence speed, bandwidth efficiency, and generalization for different approaches.
 
+### Performance Comparison Across Experiments
+The following table summarizes the key metrics (computation time, communication time, total step time) for ResNet18 and ResNet50 models under different configurations.
+
+![Results](Results.jpeg)
+
 ## Technology Stack
 - PyTorch
 - Hugging Face Accelerate
