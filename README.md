@@ -36,6 +36,18 @@ conda env create -f environment.yml
 
 # Activate environment
 conda activate federated_learning_env
+
+#set the accelerate config file
+accelerate config
+
+#Run the Baseline exp 0
+accelerate --config deepspeed_config_exp0.json main.py
+
+#Run the Compression (sparsification + Quantization) exp 1
+accelerate --config deepspeed_config_exp1.json main.py
+
+#Run the FP16 + Compression (sparsification + Quantization) exp 2
+accelerate --config deepspeed_config_exp2.json main_fp16.py
 ```
 
 
@@ -45,12 +57,12 @@ conda activate federated_learning_env
 
 | Experiment | Model | Compression | Precision | Bandwidth Efficiency | Test Accuracy | Convergence Speed | Communication Overhead | Gradient Update Frequency |
 |-----------|-------|-------------|-----------|---------------------|--------------|------------------|------------------------|--------------------------|
-| Baseline | ResNet18 | No | FP32 | Baseline | 93.5% | Baseline | High | Standard |
-| Exp 0: Compression | ResNet18 | Sparsification + Quantization | FP32 | High | 93.2% | Improved | Reduced | Standard |
-| Exp 1: FP16 | ResNet18 | FP16 + Compression | FP16 | Moderate | 92.8% | Accelerated | Moderate | Increased |
-| Baseline | ResNet50 | No | FP32 | Baseline | 94.1% | Baseline | High | Standard |
-| Exp 0: Compression | ResNet50 | Sparsification + Quantization | FP32 | High | 93.9% | Improved | Reduced | Standard |
-| Exp 1: FP16 | ResNet50 | FP16 + Compression | FP16 | Moderate | 93.6% | Accelerated | Moderate | Increased |
+| Exp 0: Baseline | ResNet18 | No | FP32 | Baseline | 84.22% | Baseline | High | Standard |
+| Exp 1: Compression | ResNet18 | Sparsification + Quantization | FP32 | High | 83.98% | Improved | Reduced | Standard |
+| Exp 2: FP16 + Compression | ResNet18 | Sparsification + Quantization | FP16 | Moderate | 79% | Accelerated | Moderate | Increased |
+| Exp 0: Baseline | ResNet50 | No | FP32 | Baseline | - | Baseline | High | Standard |
+| Exp 1: Compression | ResNet50 | Sparsification + Quantization | FP32 | High | - | Improved | Reduced | Standard |
+| Exp 2: FP16 + Compression | ResNet50 | FP16 + Compression | FP16 | Moderate | - | Accelerated | Moderate | Increased |
 
 ## Experimental Results and Observations
 
