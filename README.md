@@ -58,11 +58,11 @@ accelerate --config deepspeed_config_exp2.json main_fp16.py
 | Experiment | Model | Compression | Precision | Bandwidth Efficiency | Test Accuracy | Convergence Speed | Communication Overhead | Gradient Update Frequency |
 |-----------|-------|-------------|-----------|---------------------|--------------|------------------|------------------------|--------------------------|
 | Exp 0: Baseline | ResNet18 | No | FP32 | Baseline | 84.22% | Baseline | High | Standard |
-| Exp 1: Compression | ResNet18 | Sparsification + Quantization | FP32 | High | 83.98% | Improved | Reduced | Standard |
-| Exp 2: FP16 + Compression | ResNet18 | Sparsification + Quantization | FP16 | Moderate | 79% | Accelerated | Moderate | Increased |
+| Exp 1: Compression | ResNet18 | Sparsification + Quantization(8 bit) | FP32 | High | 83.98% | Improved | Reduced | Standard |
+| Exp 2: FP16 + Compression | ResNet18 | Sparsification + Quantization(8 bit) | FP16 | Moderate | 79% | Accelerated | Moderate | Increased |
 | Exp 0: Baseline | ResNet50 | No | FP32 | Baseline | - | Baseline | High | Standard |
-| Exp 1: Compression | ResNet50 | Sparsification + Quantization | FP32 | High | - | Improved | Reduced | Standard |
-| Exp 2: FP16 + Compression | ResNet50 | FP16 + Compression | FP16 | Moderate | - | Accelerated | Moderate | Increased |
+| Exp 1: Compression | ResNet50 | Sparsification + Quantization(16 bit) | FP32 | High | - | Improved | Reduced | Standard |
+| Exp 2: FP16 + Compression | ResNet50 | Sparsification + Quantization (16 bit) | FP16 | Moderate | - | Accelerated | Moderate | Increased |
 
 ## Experimental Results and Observations
 
