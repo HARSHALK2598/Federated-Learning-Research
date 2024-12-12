@@ -88,10 +88,10 @@ accelerate --config deepspeed_config_exp2.json main_fp16.py
 Below are the performance charts for the experiments conducted:
 
 #### Experiment 1: FP16 + Compression Results
-![Experiment 1 Results](Model Lifecycle/HPML exp1.png)
+![Experiment 1 Results](Model%20Lifecycle/HPML%20exp1.png)
 
 #### Experiment 2: Compression Results
-![Experiment 2 Results](Model Lifecycle/HPML exp2.png)
+![Experiment 2 Results](Model%20Lifecycle/HPML%20exp2.png)
 
 ## Technology Stack
 - PyTorch
