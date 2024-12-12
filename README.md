@@ -13,7 +13,7 @@ This research project addresses critical challenges in Federated Learning (FL), 
 - [x] Analyze Communication Efficiency
 - [x] Compare Different Compression Techniques
 
-## Repository Structure
+
 ## Repository Structure
 ```bash
 .
@@ -27,6 +27,7 @@ This research project addresses critical challenges in Federated Learning (FL), 
 ├── environment.yml             # Conda environment specification
 ├── Bandwidth Analysis/         # Data extraction, analysis scripts, CSVs, and plots
 └── outputFolder/               # Raw logging files, network information, train-test errors, and accuracies
+```
 
 ## Environment Setup
 ```bash
