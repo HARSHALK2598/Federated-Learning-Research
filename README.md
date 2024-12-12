@@ -93,6 +93,12 @@ Below are the performance charts for the experiments conducted:
 #### Experiment 2: Compression Results
 ![Experiment 2 Results](Model%20Lifecycle/HPML%20exp2.png)
 
+#### Visualization
+
+![Detailed Results and Comparisons](Model%20Lifecycle/accuracies_errors.png)
+
+This figure provides a comparative analysis of train/test accuracy, train error, and time per epoch for the baseline, FP16 + Compression, and Compression-only experiments. It visually emphasizes the trade-offs in convergence speed, bandwidth efficiency, and generalization for different approaches.
+
 ## Technology Stack
 - PyTorch
 - Hugging Face Accelerate
